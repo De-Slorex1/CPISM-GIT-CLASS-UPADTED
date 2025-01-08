@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>CSS CLASS</title>
+    <style>
+        .container {
+            background-color: lightskyblue;
+            padding: 20px;
+        }
+        .container-heading {
+            color: white;
+        }
+        ol {
+            background-color: lightblue;
+        } 
+        .list-items{
+            color: white;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <!--INLINE STYLING--->
+    <div style="background-color: lightgrey; padding: 20px;">
+        <h1 style="color: white;">APTECH COMPUTER EDUCATION</h1>
+        <p style="color: white;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga fugit numquam error, quibusdam quaerat tenetur nulla cum laboriosam, expedita dolor, iusto inventore natus a magni excepturi harum deserunt omnis ullam quo? Voluptatum odit omnis et iure hic neque excepturi! Perspiciatis consectetur quia, distinctio velit voluptas suscipit aspernatur qui deleniti.
+        </p>
+        <button style="background-color: grey; padding: 10px; border: none; border-radius: 4px; color: white;">SUBSCRIBE NOW</button>
+    </div>
+
+    <!--INTERNAL STYLING--->
+    <div class="container">
+        <h2 class="container-heading">LIST OF CPISM 2 STUDENTS</h2>
+        <ol class="container-list">
+            <li class="list-items">Precious</li>
+            <li class="list-items">Haleem</li>
+            <li class="list-items">Samuel</li>
+            <li class="list-items">Isreal</li>
+            <li class="list-items">Tofunmi</li>
+            <li class="list-items">Mr Samson</li>
+            <li class="list-items">Mr Akande</li>
+        </ol>
+    </div>
+
+    <!---EXTERNAL STYLING-->
+    <div class="form-container">
+        <form class="form">
+            <h2 class="form-heading">Add New Students Here</h2>
+            <input type="text" class="form-input" placeholder="Add a student here"/>
+            <button class="form-btn">Add Students</button><br><br>
+        </form>
+    </div>
+</body>
+</html>
