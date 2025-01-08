@@ -20,3 +20,10 @@
     background-color: rgb(218, 74, 22);
     border: none;
 }
+.enroll-btn {
+    border: none;
+    background-color: rgb(60, 157, 218);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
